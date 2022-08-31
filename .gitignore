@@ -1,2 +1,4 @@
 webdrivers/
+__pycache__/
+
 config.yml
