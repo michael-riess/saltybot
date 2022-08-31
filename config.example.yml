@@ -1,0 +1,7 @@
+saltybet:
+    username: my-saltybet-password
+    email: my-saltybet-email
+    password: my-saltybet-password
+
+webdriver: chrome
+# options: chrome, firefox, edge, safari

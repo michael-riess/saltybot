@@ -1,7 +1,14 @@
-import os
-from selenium import webdriver as driver
+import config
+import saltybet
+
 
 def setup():
-    pass
+    config.load()
+    saltybet.setup()
+
+
+def teardown():
+    saltybet.teardown()
+
 
 setup()
